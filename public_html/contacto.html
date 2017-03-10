@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+	<title>Formulario de Contacto</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel='stylesheet' type="text/css" href="css/estilos.css"/>
+    </head>
+    <body>
+	<div>
+	    <h1>Contáctanos</h1>
+	    <form>
+		<div> 
+		    <label for="nombre"> Nombre:</label>
+		    <input type="text" id="nombre"/>
+		</div>
+		
+		<div> 
+		    <label for="email"> E-mail:</label>
+		    <input type="email" id="email"/>
+		</div>
+		
+		<div> 
+		    <label for="asunto"> Qué necesitas?:</label>
+		    <select if="asunto" name="asunto">
+			<option value="" selected="selected">--Selecciona--</option>0
+			<option value="comentar">Quiero hacer un comentario</option>
+			<option value="info">Quiero tener información de su tienda</option>
+			<option value="entrega">Pedir costos de entrega</option>
+			<option value="otro">otro</option>
+
+		    </select>
+		</div>
+		
+		<div>
+		    <label for="msg">Mensaje</label>
+		    <textarea id="msg" cols="50" rows="20"></textarea>
+		</div>
+		
+		<div class="boton">
+		    <button type="submit"> Enviar Mensaje</button>
+		</div>
+			
+		   
+	    </form>
+
+	</div>
+    </body>
+</html>
