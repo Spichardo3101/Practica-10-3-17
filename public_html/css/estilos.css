@@ -69,14 +69,17 @@ a{
 }
 
 form{
-    /*centrando el formulario y poniendo borde */
+    /*formulario */
  margin: 0 auto;    
 width: 800px;
-padding: 1em;
-border: 1px solid blue;
+padding: 2em;
+border: 1px solid black;
 border-radius: 1em;
-background: white;
+background: rgb(59,192,194);
+font-family: arial;
+font-weight: bold;
   }
+   /*margen de espacio entre texto del formulario */
   form div {
       
       margin-top: 1em;
@@ -94,23 +97,28 @@ background: white;
   a:active{
       color:   aqua;
   }
-    /*cuadros del formulario */
+    /*cuadro  dentro del formulario */
   label{
       display: inline-block;
-          width:100px;
-          text-align: right;
-          width: 220px;
+       /*alineacion del texto del fomulario */
+        text-align: center;
+       width: 200px;
  }
- 
+     /*ancho del cuadros del texto */
+
   input, textarea{
       font: 1em arial Gothic;
-      width:400px;
+      width:450px;
       
   }
   input:focus,textarea:focus
   {
-  border-color:red;
+  border-color:blue;
   }
   
   .centralizada{text-align: center}
- .fondo{ background-color: red;} 
+ .fondo{ background-color:  beige;} 
+ .boton {
+
+ margin-left: 205px;
+ }
